@@ -23366,7 +23366,7 @@ li.has-dropdown:hover .submenu {
   left: 0;
   bottom: 0;
   content: "";
-  background: #fff;
+  /* background: #fff; */
   width: 100%;
   height: 1px;
 }

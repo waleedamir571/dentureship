@@ -13,13 +13,11 @@
         <div class="row g-5 mt--0">
             <div class="col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-duration=".8s" data-wow-delay="0.3s">
                 <div class="health-package-single-wrapper">
-                    <a href="appoinment.html" class="thumbnail">
+                    <!-- <a href="appoinment.html" class="thumbnail">
                         <img src="assets/images/health-package/01.webp" alt="health">
-                    </a>
+                    </a> -->
                     <div class="inner-content">
-                        <a href="appoinment.html">
-                            <h5 class="title">Women's Health Package</h5>
-                        </a>
+                        
                         <h5 class="price">$89.00</h5>
                         <div class="check-main-wrapper">
 
@@ -67,13 +65,11 @@
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-duration=".8s" data-wow-delay="0.5s">
                 <div class="health-package-single-wrapper">
-                    <a href="appoinment.html" class="thumbnail">
+                    <!-- <a href="appoinment.html" class="thumbnail">
                         <img src="assets/images/health-package/02.webp" alt="health">
-                    </a>
+                    </a> -->
                     <div class="inner-content">
-                        <a href="appoinment.html">
-                            <h5 class="title">Men's Health Package</h5>
-                        </a>
+                       
                         <h5 class="price">$99.00</h5>
                         <div class="check-main-wrapper">
 
