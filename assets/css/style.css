@@ -336,6 +336,25 @@ h6 a,
   line-height: 30px;
 }
 
+.div2 {
+  width: 100%;
+  /* height: 100px; */
+  padding: 15px;
+  /* border: 1px solid red; */
+  border-radius: 8px;
+  background: #F6F6F6;
+}
+
+
+.Description{
+  color: #000;
+
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 133.333% */
+}
+
 #myInput {
   /* width: 300px; */
   padding: 10px;
@@ -452,10 +471,140 @@ h5,
 .h5 {
   font-weight: var(--s-bold);
 }
+.gap-3 {
+  gap: 2rem !important;
+}
+
+
 
 h6,
 .h6 {
   font-weight: var(--s-bold);
+}
+
+.rts-section-gap12 {
+  padding: 60px 0;
+  background: white;
+}
+
+.full-course {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.number{
+  color: #000;
+
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 35px; /* 87.5% */
+}
+
+.s-number{
+  color: #000;
+  opacity: 0.4;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 35px; /* 140% */
+text-decoration-line: line-through;
+}
+
+.course-card {
+  max-width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.time-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.circle-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+}
+.w-20{
+  width: 20%;
+}
+
+.course-card1 {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: transparent;
+  
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 0px 4px 18.1px 0px rgba(0, 0, 0, 0.07);
+  padding: 15px;
+}
+
+.assets{
+  
+  color: #000;
+  
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.btn-buy{
+  
+  
+   
+   
+    background-color: transparent;
+    border-color: #052D4D;
+    color: #052D4D;
+    text-align: center;
+    /* font-family: "GT Walsheim Pro"; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    border: 1px solid #052D4D;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.img1{
+
+   width: 7% !important;
+
+}
+
+.arrow-icon {
+  color: #999;
+  width: 16px;
+  display: inline-block;
+}
+
+.op-4{
+  opacity: 0.4;
+}
+
+.discount-badge {
+  background-color: #00FF84;
+  font-size: 0.75rem;
+  color: #052D4D;
+  /* font-family: "GT Walsheim Pro"; */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  border-radius: 10px;
 }
 
 .lead {
@@ -473,6 +622,7 @@ h6,
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+  text-align: left;
 }
 
 p {
@@ -595,6 +745,21 @@ p:last-child {
   background: #052D4D;
   height: 1096px;
   margin-bottom: 150px;
+}
+
+.container-wrapper-faq .accordion .accordion-item .accordion-header button:focus,
+.container-wrapper-faq .accordion .accordion-item .accordion-header button:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.bristol2{
+  color: #000;
+
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 35px; /* 175% */
 }
 
 .video-card {
@@ -1039,6 +1204,15 @@ table {
 
   text-align: left;
 }
+
+.div2 {
+  width: 100%;
+  padding: 20px 15px;
+  border-radius: 8px;
+  background: #F6F6F6;
+}
+
+
 
 table a,
 table a:link,
@@ -16169,7 +16343,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 .banner-area-one {
   background-image: url(../images/home/bg.png);
   position: relative;
-  height: 798px;
+  height: 100dvh;
   display: flex;
   align-items: center;
 }
@@ -16901,6 +17075,16 @@ li:nth-child(n+2) .bristol {
 .w-25{
   width: 25px !important;
 }
+
+.distance1 {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.3;
+  opacity: 0.5;
+}
+
 
 .distance {
   color: #000;
@@ -22354,13 +22538,13 @@ li.has-dropdown:hover .submenu {
 }
 
 .single-testimonials-style p.disc {
-
   color: #202020;
   font-family: Manrope;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
+  text-align: left;
 }
 
 @media only screen and (max-width: 479px) {
@@ -23303,7 +23487,7 @@ li.has-dropdown:hover .submenu {
   justify-content: space-between;
   gap: 201px;
   padding-top: 50px;
-  border-top: 1px solid #201F57;
+  /* border-top: 1px solid #201F57; */
   padding-bottom: 80px;
 }
 

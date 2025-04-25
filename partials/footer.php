@@ -218,12 +218,70 @@
   
     <!-- main js here -->
     <script src="assets/js/main.js"></script>
-   
 
+    <script>
+        function playVideo(videoId) {
+            const iframe = document.getElementById('youtube-video');
+            iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+    
+            const modal = new bootstrap.Modal(document.getElementById('videoModal'));
+            modal.show();
+    
+            document.getElementById('videoModal').addEventListener('hidden.bs.modal', () => {
+                iframe.src = "";
+            }, { once: true });
+        }
+    </script>
+    
+
+    <script>
+        function playVideo(videoId) {
+            const iframe = document.getElementById('youtube-video');
+            iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+    
+            const modal = new bootstrap.Modal(document.getElementById('videoModal'));
+            modal.show();
+    
+            document.getElementById('videoModal').addEventListener('hidden.bs.modal', () => {
+                iframe.src = "";
+            }, { once: true });
+        }
+    </script>
+    
+
+    <script>
+        function playVideo(videoId) {
+            const iframe = document.getElementById('youtube-video');
+            iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+    
+            const modal = new bootstrap.Modal(document.getElementById('videoModal'));
+            modal.show();
+    
+            document.getElementById('videoModal').addEventListener('hidden.bs.modal', () => {
+                iframe.src = "";
+            }, { once: true });
+        }
+    </script>
+    
+   
+    <script>
+        function playVideo(videoId) {
+            const iframe = document.getElementById('youtube-video');
+            iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+    
+            const modal = new bootstrap.Modal(document.getElementById('videoModal'));
+            modal.show();
+    
+            document.getElementById('videoModal').addEventListener('hidden.bs.modal', () => {
+                iframe.src = "";
+            }, { once: true });
+        }
+    </script>
+    
     <script>
         function playVideo() {
           const iframe = document.getElementById('youtube-video');
-          iframe.src = "https://www.youtube.com/embed/qCZvZiEw_yE?autoplay=1&rel=0";
+          iframe.src = "https://www.youtube.com/embed/oWLHAuUoYqQ?autoplay=1&rel=0";
     
           const modal = new bootstrap.Modal(document.getElementById('videoModal'));
           modal.show();
@@ -232,7 +290,26 @@
             iframe.src = "";
           });
         }
+       
+   
+
+
+
       </script>
+      <script>
+        function playVideo(videoId) {
+            const iframe = document.getElementById('youtube-video');
+            iframe.src = `https://www.youtube.com/embed/oWLHAuUoYqQ?autoplay=1&rel=0`;
+    
+            const modal = new bootstrap.Modal(document.getElementById('videoModal'));
+            modal.show();
+    
+            document.getElementById('videoModal').addEventListener('hidden.bs.modal', () => {
+                iframe.src = "";
+            }, { once: true });
+        }
+    </script>
+    
 
 
 <script>
