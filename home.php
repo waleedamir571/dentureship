@@ -1,7 +1,6 @@
 <?php include 'partials/header.php'; ?>
 <!-- header area end -->
 <!-- header area end -->
-
 <!-- banner area start -->
 <div class="banner-area-start">
     <div class="container-full-header">
@@ -68,7 +67,6 @@
                             <button class="rts-btn btn-4">Search</button>
                         </form>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -135,8 +133,6 @@
 
                     </ul>
 
-
-
                 </div>
             </div>
 
@@ -155,9 +151,7 @@
                     <!-- <button class="tab-btn2" onclick="showTab(this, 'tab-prosthod')">Prosthod <br> <span class="million">4M+ learners</span></button> -->
                 </div>
                 <!-- <button class="carousel-arrow right" onclick="moveSlide(1)">&#10095;</button>
-            </div> -->
-            
-            
+            </div> -->            
             <br>
 
             <div class="tab-content">
@@ -503,7 +497,6 @@
             </div>
         </div>
 
-
         <div class="row mt--60">
             <div class="row">
                 <div class="col-md-2 offset-md-5 text-center">
@@ -513,15 +506,6 @@
         </div>
     </div>
 </div>
-<!-- short service -->
-
-
-<!-- request appoinment area start -->
-
-<!-- request appoinment area end -->
-
-
-<!-- header area start -->
 
 <script>
 let currentIndex = 0;
