@@ -215,6 +215,8 @@
     <script src="assets/js/plugins/smooth-scroll.js"></script>
     <script src="assets/js/plugins/magnifying-popup.js"></script>
     <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+   
   
     <!-- main js here -->
     <script src="assets/js/main.js"></script>
@@ -344,6 +346,8 @@
     });
  
   </script>
+
+ 
   
 
 </body>

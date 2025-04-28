@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <!-- Regular -->
     <!-- <link href="https://db.onlinewebfonts.com/c/xxxxxxxxxx?family=GT+Walsheim+Pro+Regular" rel="stylesheet"> -->
 
@@ -34,19 +35,10 @@
         <div class="header-top-area">
             <div class="container-full-header">
                 <div class="col-lg-12">
-                    <div class="header-top">
-                        <div class="left">
-                            <div class="map-area">
-
-                                <a href="#">2702 Memory Lane, Chicago, IL 60605</a>
-                            </div>
-                            <div class="map-area">
-
-                                <a href="#">Monday - Friday 08:00 - 20:00</a>
-                            </div>
-                        </div>
+                    <div class="">
+                       
                         <div class="">
-                            <p class="text"> Practice your creativity all year long. Save 20% with code CREATE20
+                            <p class="text text-center"> Practice your creativity all year long. Save 20% with code CREATE20
                                 &nbsp;&nbsp; <a href="#" class="rts-btn btn-1">Save 20% Today</a></p>
 
                         </div>
@@ -74,7 +66,7 @@
                 <div class="col-lg-12">
                     <div class="header-wrapper-1">
                         <div class="logo-area-start">
-                            <a href="#" class="logo">
+                            <a href="index.php" class="logo">
                                 <img src="assets/images/home/logo.png" alt="logo_area">
                             </a>
                             <div class="nav-area">

@@ -142,7 +142,7 @@
             <!-- <div class="carousel-container">
                 <button class="carousel-arrow left" onclick="moveSlide(-1)">&#10094;</button> -->
                 <div class="tabs-container">
-                    <button class="tab-btn2 active" onclick="showTab(this, 'tab-dental')">Dental care <br> <span class="million">4M+ learners</span></button>
+                    <button class="tab-btn2 active" onclick="showTab(this, 'tab-dental')">Dental care <br> <span class="million ">4M+ learners</span></button>
                     <button class="tab-btn2" onclick="showTab(this, 'tab-root')">Root Canal <br> <span class="million">4M+ learners</span></button>
                     <button class="tab-btn2" onclick="showTab(this, 'tab-materials')">Dental Materials <br> <span class="million">4M+ learners</span></button>
                     <button class="tab-btn2" onclick="showTab(this, 'tab-implant')">Implant Dentistry <br> <span class="million">4M+ learners</span></button>
@@ -195,7 +195,7 @@
 
                                     <div class="row">
                                         <div class="col-md-6 offset-md-6">
-                                            <button class="book-btn mt-2">Book now</button>
+                                         <a href="profile.php">   <button class="book-btn mt-2">Book now</button> </a>
                                         </div>
                                     </div>
                                 </div>

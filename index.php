@@ -17,11 +17,12 @@
                                     Book Your Professional
                                     Observation Experience
                                 </h1>
+                                
                                 <p class="disc wow fadeInUp" data-wow-delay=".4s" data-wow-duration=".8s">
                                     Make your next career move with online courses from 200+ world-class
                                     universities and brands.
                                 </p>
-
+                                <br>
                                 <a href="#" class="rts-btn btn-3">Find a Dentist</a>
                             </div>
                         </div>
@@ -414,7 +415,7 @@
         <div class="row mt--60">
             <div class="row">
                 <div class="col-md-2 offset-md-5 text-center">
-                    <button class="book-btn mt-2">View More</button>
+                 <a href="home.php">   <button class="book-btn mt-2">View More</button> </a>
                 </div>
             </div>
         </div>
@@ -423,7 +424,7 @@
 <!-- short service -->
 <div class="why-choose-area-wrapper bg-light1 rts-section-gap3 ">
     <div class="container">
-        <div class="row align-items-baseline">
+        <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="title-between-area mb_sm--30">
                     <div class="title-wrapper-left">
@@ -568,8 +569,8 @@
                                         <div class="b-bottom "></div>
                                     </div>
                                     <div class="d-flex gap-2">
-                                        <button class="course">View Course</button>
-                                        <button class="book-btn">$49.00</button>
+                                       <a href="course.php"> <button class="course-btn">View Course</button> </a>
+                                        <button class="book-btn21">$49.00</button>
                                     </div>
 
                                 </div>
@@ -590,8 +591,8 @@
                                         <div class="b-bottom "></div>
                                     </div>
                                     <div class="d-flex gap-2">
-                                        <button class="course">View Course</button>
-                                        <button class="book-btn">$49.00</button>
+                                        <button class="course-btn">View Course</button>
+                                        <button class="book-btn21">$49.00</button>
                                     </div>
 
                                 </div>
@@ -611,8 +612,8 @@
                                         <div class="b-bottom "></div>
                                     </div>
                                     <div class="d-flex gap-2">
-                                        <button class="course">View Course</button>
-                                        <button class="book-btn">$49.00</button>
+                                        <button class="course-btn">View Course</button>
+                                        <button class="book-btn21">$49.00</button>
                                     </div>
 
                                 </div>
@@ -636,8 +637,8 @@
                                             <div class="b-bottom "></div>
                                         </div>
                                         <div class="d-flex gap-2">
-                                            <button class="course">View Course</button>
-                                            <button class="book-btn">$49.00</button>
+                                            <button class="course-btn">View Course</button>
+                                            <button class="book-btn21">$49.00</button>
                                         </div>
 
                                     </div>
@@ -658,8 +659,8 @@
                                             <div class="b-bottom "></div>
                                         </div>
                                         <div class="d-flex gap-2">
-                                            <button class="course">View Course</button>
-                                            <button class="book-btn">$49.00</button>
+                                            <button class="course-btn">View Course</button>
+                                            <button class="book-btn21">$49.00</button>
                                         </div>
 
                                     </div>
@@ -679,8 +680,8 @@
                                             <div class="b-bottom "></div>
                                         </div>
                                         <div class="d-flex gap-2">
-                                            <button class="course">View Course</button>
-                                            <button class="book-btn">$49.00</button>
+                                            <button class="course-btn">View Course</button>
+                                            <button class="book-btn21">$49.00</button>
                                         </div>
 
                                     </div>
@@ -705,8 +706,8 @@
                                         <div class="b-bottom "></div>
                                     </div>
                                     <div class="d-flex gap-2">
-                                        <button class="course">View Course</button>
-                                        <button class="book-btn">$49.00</button>
+                                        <button class="course-btn">View Course</button>
+                                        <button class="book-btn21">$49.00</button>
                                     </div>
 
                                 </div>
@@ -730,8 +731,8 @@
                                         <div class="b-bottom "></div>
                                     </div>
                                     <div class="d-flex gap-2">
-                                        <button class="course">View Course</button>
-                                        <button class="book-btn">$49.00</button>
+                                        <button class="course-btn">View Course</button>
+                                        <button class="book-btn21">$49.00</button>
                                     </div>
 
                                 </div>
@@ -1119,3 +1120,7 @@
 <!-- header area start -->
 
 <?php include 'partials/footer.php'; ?>
+
+   
+   
+   
