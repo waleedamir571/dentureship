@@ -415,7 +415,7 @@
         <div class="row mt--60">
             <div class="row">
                 <div class="col-md-2 offset-md-5 text-center">
-                 <a href="home.php">   <button class="book-btn mt-2">View More</button> </a>
+                 <a href="doctors">   <button class="book-btn mt-2">View More</button> </a>
                 </div>
             </div>
         </div>
@@ -569,7 +569,7 @@
                                         <div class="b-bottom "></div>
                                     </div>
                                     <div class="d-flex gap-2">
-                                       <a href="course.php"> <button class="course-btn">View Course</button> </a>
+                                       <a href="course-detail"> <button class="course-btn">View Course</button> </a>
                                         <button class="book-btn21">$49.00</button>
                                     </div>
 

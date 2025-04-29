@@ -195,7 +195,7 @@
 
                                     <div class="row">
                                         <div class="col-md-6 offset-md-6">
-                                         <a href="profile.php">   <button class="book-btn mt-2">Book now</button> </a>
+                                         <a href="profile">   <button class="book-btn mt-2">Book now</button> </a>
                                         </div>
                                     </div>
                                 </div>
