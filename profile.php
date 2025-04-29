@@ -1,3 +1,5 @@
+<?php include 'partials/header.php'; ?>
+
 <style>
     .nav-link {
         display: block;
@@ -15,15 +17,15 @@
     padding: 5px !important;
 } */
 
-    .nav-tabs .nav-link.active {
-        background-color: #fff !important;
-        border-color: #fff !important;
-        border-radius: 10px;
-    }
+.nav-tabs .nav-link.active {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    border-radius: 10px;
+}
 </style>
 
 
-<?php include 'partials/header.php'; ?>
+
 <!-- header area end -->
 <!-- header area end -->
 
@@ -80,7 +82,7 @@
                     <div class="col-md-12">
 
                         <div class="head1">Dental care</div>
-                        <div class="head1">Implant Dentistry</div>
+                        <div class="head1">Implant  Dentistry</div>
                         <div class="head1">Oral Health</div>
 
                     </div>
@@ -296,7 +298,7 @@
                                 type="button" role="tab">
                                 <p class="div3"><img src="assets/images/home/teeth.png" alt="">
                                     <br>
-                                    Implant
+                                    Implant <br>
                                     Dentistry
                                 </p>
                             </button>
@@ -319,8 +321,9 @@
                         <div class="tab-pane fade show active" id="dental" role="tabpanel">
                             <div id="calendar-dental"></div>
                             <br>
-                            <p class="book-btn12" data-bs-toggle="modal" data-bs-target="#waitingListModal">Add Waiting
-                                List</p>
+                            <p class="book-btn12" data-bs-toggle="modal" data-bs-target="#waitingListModal">
+                                Add Waiting List
+                            </p>
                         </div>
 
                         <!-- Implant Tab -->
@@ -358,49 +361,43 @@
         </div>
     </div>
 </div>
+
+<!-- Button trigger modal -->
+
 <!-- rts doctors details area end -->
 <!-- Modal -->
 <div class="modal fade" id="waitingListModal" tabindex="-1" aria-labelledby="waitingListModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
         <div class="modal-content br-30">
             <div class="modal-header">
-                <!-- <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5> -->
                 <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p class="red-32 text-center">Your’re on the waiting list!</p>
-                <p class="m-text">Your’ve been added to the waiting list. Stay informed by choosing
+                <p class="red-32 text-center">You're on the waiting list!</p>
+                <p class="m-text">You've been added to the waiting list. Stay informed by choosing
                     how you’d like to receive updates:</p>
+
                 <p class="bristol1">Email Notification - Get a reminder:</p>
 
-                <div class="d-flex">
+                <div class="d-flex gap-3">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1">
-                            01
-                        </label>
+                        <label class="form-check-label" for="defaultCheck1">01</label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1">
-                            02
-                        </label>
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                        <label class="form-check-label" for="defaultCheck2">02</label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1">
-                            03
-                        </label>
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                        <label class="form-check-label" for="defaultCheck3">03</label>
                     </div>
                 </div>
+
                 <br>
-                <p class="m-text">Plaftorm Updates - Recieve notifications directly in your
-                    notification box</p>
+
+                <p class="m-text">Platform Updates - Receive notifications directly in your notification box</p>
             </div>
-            <!-- <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-            </div> -->
         </div>
     </div>
 </div>

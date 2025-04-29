@@ -546,6 +546,44 @@ h5,
   gap: 2rem !important;
 }
 
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1060;
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+  background: black !important;
+  opacity: 1 !important;
+}
+
+.modal-backdrop.custom-backdrop {
+  background-color: rgba(0, 0, 0, 0.9); /* Almost black with high opacity */
+  z-index: 1055 !important; /* More than modal itself */
+}
+
+
+    /* Make the backdrop completely black and opaque */
+   
+    /* Force solid black background */
+    .modal-backdrop.show {
+      background-color: rgba(0, 0, 0, 1) !important;
+    }
+  
+    /* Disable scroll on background */
+    body.modal-open {
+      overflow: hidden;
+    }
+ 
+  
+
+
+
+
 .header-image {
   background-image: url('../images/home/profilebg.png');
   /* Replace with actual image URL */
@@ -557,12 +595,14 @@ h5,
 
 
 .div3 {
-  width: auto;
-  height: auto;
+  width: 120px;
+  height: 120px;
   padding: 12px;
   /* border: 1px solid red; */
   border-radius: 10px;
   background: #FFF;
+  /* margin-top: 11px; */
+  padding-top: 15px;
 }
 
 .tab-content {
