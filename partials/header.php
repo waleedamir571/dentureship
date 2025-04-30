@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/home/favicon-32x32.png">
     <title>Dentorship</title>
     <meta name="description"
         content="Your trusted source for expert healthcare services and medical information. Providing personalized care, advanced treatments, and reliable health resources to help you achieve better health.">
@@ -19,11 +19,11 @@
     <!-- Regular -->
     <!-- <link href="https://db.onlinewebfonts.com/c/xxxxxxxxxx?family=GT+Walsheim+Pro+Regular" rel="stylesheet"> -->
 
-    <!-- Medium -->
-    <link href="https://db.onlinewebfonts.com/c/yyyyyyyyyy?family=GT+Walsheim+Pro+Medium" rel="stylesheet">
+  
+     <!-- <link href="https://db.onlinewebfonts.com/c/yyyyyyyyyy?family=GT+Walsheim+Pro+Medium" rel="stylesheet">
 
-    <!-- Bold -->
-    <link href="https://db.onlinewebfonts.com/c/zzzzzzzzzz?family=GT+Walsheim+Pro+Bold" rel="stylesheet">
+   
+    <link href="https://db.onlinewebfonts.com/c/zzzzzzzzzz?family=GT+Walsheim+Pro+Bold" rel="stylesheet">  -->
 
 </head>
 
@@ -75,7 +75,7 @@
                                     <li class="main-nav"><a href="#">Browse</a></li>
                                     <div class="header-right">
                                         <div class="input-area">
-                                            <input id="myInput" type="text" placeholder="Search for anything">
+                                            <input id="myInput" type="text" placeholder="Search...">
                                             <i class="fa-light fa-magnifying-glass"></i>
                                         </div>
                                         <li class="main-nav"><a href="#"><img src="assets/images/home/country.png"

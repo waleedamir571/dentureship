@@ -99,14 +99,40 @@
   --h6: 18px;
 }
 
+@font-face {
+  font-family: 'GT Walsheim Pro Medium';
+  src: url('https://db.onlinewebfonts.com/t/yyyyyyyyyy.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro Bold';
+  src: url('https://db.onlinewebfonts.com/t/zzzzzzzzzz.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
-  font-family: "GT Walsheim Pro Medium Regular";
+  /* font-family: "GT Walsheim Pro Medium Regular"; */
+  font-family: 'GT Walsheim Pro Medium', sans-serif !important;
+}
+.custom-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(245, 245, 245, 0.95); /* Dark white */
+  z-index: 0;
 }
 
 
+
 .gt {
-  font-family: "GT Walsheim Pro Medium Regular";
+  /* font-family: "GT Walsheim Pro Medium Regular"; */
+  font-family: 'GT Walsheim Pro Medium', sans-serif !important;
 }
 
 html {
@@ -123,14 +149,41 @@ body {
   line-height: var(--line-height-b1);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "GT Walsheim Pro Medium Regular";
-
+  /* font-family: "GT Walsheim Pro Medium Regular"; */
+  font-family: 'GT Walsheim Pro Medium', sans-serif !important;
   color: var(--color-body);
   font-weight: var(--p-regular);
   position: relative;
   overflow-x: hidden;
   margin: 0;
 }
+
+.tick-icon {
+  display: none;
+  position: absolute;
+  top: 69rem;
+  right: 55rem;
+  width: 30px;
+  height: 30px;
+  background-color: #00FF84;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+/* Show tick icon only on active tab */
+.nav-tabs .nav-link.active .tick-icon {
+  display: block;
+}
+
+.nav-tabs .nav-link.active .div3 {
+    border: 2px solid #00FF84;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+   
+    /* background: white; */
+}
+
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   body {
@@ -558,7 +611,7 @@ h5,
   overflow-y: auto;
   outline: 0;
   background: black !important;
-  opacity: 1 !important;
+  opacity: 0.9 !important;
 }
 
 .modal-backdrop.custom-backdrop {
@@ -830,7 +883,7 @@ h5,
 
 .head1 {
   color: #000;
-  font-size: 35px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 700;
   line-height: 75px;
@@ -23133,7 +23186,7 @@ li.has-dropdown:hover .submenu {
 
 .single-testimonials-style p.disc {
   color: #202020;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   font-size: 16px;
   font-style: normal;
   font-weight: 400;

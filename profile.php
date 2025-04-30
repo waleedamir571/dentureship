@@ -287,7 +287,9 @@
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active" id="dental-tab" data-bs-toggle="tab"
                                 data-bs-target="#dental" type="button" role="tab">
-                                <p class="div3"><img src="assets/images/home/teeth.png" alt="">
+                                <p class="div3">
+                                    <!-- <img src="assets/images/home/Vector.png" class="tick-icon" alt="Tick Icon"> -->
+                                    <img src="assets/images/home/teeth.png" alt="">
                                     <br>
                                     Dental care
                                 </p>
@@ -296,7 +298,9 @@
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="implant-tab" data-bs-toggle="tab" data-bs-target="#implant"
                                 type="button" role="tab">
-                                <p class="div3"><img src="assets/images/home/teeth.png" alt="">
+                                <p class="div3">
+                                    <!-- <img src="assets/images/home/Vector.png" class="tick-icon" alt="Tick Icon"> -->
+                                    <img src="assets/images/home/teeth.png" alt="">
                                     <br>
                                     Implant <br>
                                     Dentistry
@@ -306,7 +310,9 @@
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="oral-tab" data-bs-toggle="tab" data-bs-target="#oral"
                                 type="button" role="tab">
-                                <p class="div3"><img src="assets/images/home/teeth.png" alt="">
+                                <p class="div3">
+                                    <!-- <img src="assets/images/home/Vector.png" class="tick-icon" alt="Tick Icon"> -->
+                                    <img src="assets/images/home/teeth.png" alt="">
                                     <br>
                                     Oral Health
                                 </p>
@@ -366,6 +372,8 @@
 
 <!-- rts doctors details area end -->
 <!-- Modal -->
+
+<div id="customBackdrop" class="custom-backdrop d-none"></div>
 <div class="modal fade" id="waitingListModal" tabindex="-1" aria-labelledby="waitingListModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
         <div class="modal-content br-30">
@@ -402,6 +410,18 @@
     </div>
 </div>
 
+<script>
+    const modal = document.getElementById('waitingListModal');
+    const backdrop = document.getElementById('customBackdrop');
+
+    modal.addEventListener('show.bs.modal', function () {
+        backdrop.classList.remove('d-none');
+    });
+
+    modal.addEventListener('hidden.bs.modal', function () {
+        backdrop.classList.add('d-none');
+    });
+</script>
 
 
 <!-- book your consulting -->
