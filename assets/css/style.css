@@ -118,6 +118,106 @@
   /* font-family: "GT Walsheim Pro Medium Regular"; */
   font-family: 'GT Walsheim Pro Medium', sans-serif !important;
 }
+
+.coupon-input-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.coupon-input-wrapper .form-control {
+  border-radius: 25px;
+  padding-right: 90px;
+  height: 50px;
+  border-radius: 16px;
+  border: 1.123px solid var(--Gray-100, #E9EAF0);
+  background: var(--Gray-White, #FFF);
+}
+
+.coupon-input-wrapper .apply-btn {
+  position: absolute;
+  right: 6px;
+  top: 5px;
+  bottom: 5px;
+  padding: 0 20px;
+  border: 1px solid #002244;
+  border-radius: 20px;
+  background-color: white;
+  color: #002244;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid #052D4D;
+}
+
+
+.btn-primary3{
+  border-radius: 10px;
+background: #052D4D;
+color: #D5EEF4;
+text-align: center;
+padding: 12px 18px !important;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 150% */
+}
+
+.dollars1{
+  color: var(--Gray-Scales-Black, #202029);
+text-align: right;
+
+font-size: 26.945px;
+font-style: normal;
+font-weight: 600;
+line-height: 35.927px; /* 133.333% */
+letter-spacing: -0.269px;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+  outline: none !important;
+  border-color: #ced4da !important; /* Optional: set default border color */
+}
+
+
+.course-title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: var(--Gray-900, #1D2026);
+  font-family: Inter;
+  font-size: 17.964px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24.7px; 
+     padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.subtotal{
+  color: var(--Gray-600, #6E7485);
+text-align: right;
+
+font-size: 15.718px;
+font-style: normal;
+font-weight: 400;
+line-height: 24.7px; /* 157.143% */
+letter-spacing: -0.157px;
+}
+
+.dollars{
+  color: var(--Gray-900, #1D2026);
+
+font-size: 15.718px;
+font-style: normal;
+font-weight: 500;
+line-height: 22.455px; /* 142.857% */
+letter-spacing: -0.157px;
+}
+
 .custom-backdrop {
   position: fixed;
   top: 0;
@@ -126,6 +226,88 @@
   width: 100vw;
   background-color: rgba(245, 245, 245, 0.95); /* Dark white */
   z-index: 0;
+}
+
+.price-tag {
+  font-size: 18px;
+  font-weight: bold;
+  color: #002244;
+  display: flex;
+  align-items: center;  
+}
+
+.new-price {
+  margin-right: 10px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #999;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.card-body2{
+  border-radius: 30px;
+border: 1.123px solid var(--Gray-100, #E9EAF0);
+background: var(--Gray-White, #FFF);
+padding: 20px;
+}
+
+.course1{
+  color: var(--Gray-700, #4E5566);
+
+font-size: 15.718px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 15.718px */
+text-transform: uppercase;
+}
+
+
+.btn-remove {
+  /* position: absolute; */
+  top: -8px;
+  /* margin-left: -8px; */
+  background: none;
+  border: none;
+  padding: 6px;
+  color: #8C94A3;
+  transition: all 0.2s;
+}
+
+.btn-remove:hover {
+  color: #666;
+}
+
+.btn-primary {
+  background-color: #4361ee;
+  border-color: #4361ee;
+}
+
+.btn-success {
+  background-color: #2ecc71;
+  border-color: #2ecc71;
+}
+
+.rating .fa-star {
+  font-size: 0.8rem;
+}
+
+
+.summary-item, .summary-total {
+  font-size: 0.95rem;
+}
+
+@media (max-width: 767.98px) {
+  .course-item .d-flex {
+    flex-direction: column;
+  }
+  
+  .course-price {
+    text-align: left !important;
+    margin-top: 10px;
+  }
 }
 
 

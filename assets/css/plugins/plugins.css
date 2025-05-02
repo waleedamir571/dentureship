@@ -33685,10 +33685,9 @@
     src: url(../../fonts/fa-solid-900.woff2) format("woff2"), url(../../fonts/fa-solid-900.ttf) format("truetype")
 }
 
-.fa-solid,
-.fas {
-    font-family: "Font Awesome 6 Pro";
-    font-weight: 900
+.fa-solid, .fas {
+    font-family: "Font Awesome 6 Pro" !important;
+    font-weight: 900;
 }
 
 :host,
