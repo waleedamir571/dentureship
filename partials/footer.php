@@ -27,9 +27,9 @@
                                     <h6 class="title">Company </h6>
                                     <div class="body">
                                         <ul class="nav-bottom">
-                                            <li><a href="about.html">Team Plans</a></li>
-                                            <li><a href="about.html">Gift Membership Cards</a></li>
-                                            <li><a href="appoinment.html">Corporate Gift Cards </a></li>
+                                            <li><a href="#">Team Plans</a></li>
+                                            <li><a href="#">Gift Membership Cards</a></li>
+                                            <li><a href="#">Corporate Gift Cards </a></li>
                                            
                                         </ul>
                                     </div>
@@ -64,10 +64,6 @@
                                 </div>
                             </div>
                         </div>
-                       
-                       
-                        
-                       
                     </div>
                 </div>
             </div>
@@ -110,15 +106,15 @@
                     <li class="has-droupdown">
                         <a href="#" class="main">Home</a>
                         <ul class="submenu mm-collapse">
-                            <li><a class="mobile-menu-link" href="index.html">Main Home</a></li>
-                            <li><a class="mobile-menu-link" href="index-two.html">Home Two</a></li>
-                            <li><a class="mobile-menu-link" href="index-three.html">Home Three</a></li>
-                            <li><a class="mobile-menu-link" href="index-four.html">Home Four</a></li>
-                            <li><a class="mobile-menu-link" href="index-five.html">Home Five</a></li>
-                            <li><a class="mobile-menu-link" href="index-six.html">Home Six</a></li>
-                            <li><a class="mobile-menu-link" href="index-seven.html">Home Seven</a></li>
-                            <li><a class="mobile-menu-link" href="index-eight.html">Home Eight</a></li>
-                            <li><a class="mobile-menu-link" href="index-nine.html">Home Nine</a></li>
+                            <li><a class="mobile-menu-link" href="#">Main Home</a></li>
+                            <li><a class="mobile-menu-link" href="#">Home Two</a></li>
+                            <li><a class="mobile-menu-link" href="#e.">Home Three</a></li>
+                            <li><a class="mobile-menu-link" href="#.">Home Four</a></li>
+                            <li><a class="mobile-menu-link" href="#.">Home Five</a></li>
+                            <li><a class="mobile-menu-link" href="#">Home Six</a></li>
+                            <li><a class="mobile-menu-link" href="#n.">Home Seven</a></li>
+                            <li><a class="mobile-menu-link" href="#t.">Home Eight</a></li>
+                            <li><a class="mobile-menu-link" href="#.">Home Nine</a></li>
                         </ul>
                     </li>
                     <li class="has-droupdown">
@@ -213,146 +209,60 @@
     <script src="assets/js/plugins/metismenu.js"></script>
     <script src="assets/js/plugins/jarallax.js"></script>
     <script src="assets/js/plugins/smooth-scroll.js"></script>
-    <script src="assets/js/plugins/magnifying-popup.js"></script>
-    <script src="assets/js/vendor/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <!-- <script src="assets/js/plugins/magnifying-popup.js"></script> -->
+    <!-- <script src="assets/js/vendor/bootstrap.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
    
-  
     <!-- main js here -->
     <script src="assets/js/main.js"></script>
 
     <script>
-        function playVideo(videoId) {
-            const iframe = document.getElementById('youtube-video');
-            iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
-    
-            const modal = new bootstrap.Modal(document.getElementById('videoModal'));
-            modal.show();
-    
-            document.getElementById('videoModal').addEventListener('hidden.bs.modal', () => {
-                iframe.src = "";
-            }, { once: true });
-        }
-    </script>
-    
+  function toggleDropdown(elem) {
+    const dropdown = elem.nextElementSibling;
+    const isOpen = dropdown.style.display === 'block';
 
-    <script>
-        function playVideo(videoId) {
-            const iframe = document.getElementById('youtube-video');
-            iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
-    
-            const modal = new bootstrap.Modal(document.getElementById('videoModal'));
-            modal.show();
-    
-            document.getElementById('videoModal').addEventListener('hidden.bs.modal', () => {
-                iframe.src = "";
-            }, { once: true });
-        }
-    </script>
-    
-
-    <script>
-        function playVideo(videoId) {
-            const iframe = document.getElementById('youtube-video');
-            iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
-    
-            const modal = new bootstrap.Modal(document.getElementById('videoModal'));
-            modal.show();
-    
-            document.getElementById('videoModal').addEventListener('hidden.bs.modal', () => {
-                iframe.src = "";
-            }, { once: true });
-        }
-    </script>
-    
-   
-    <script>
-        function playVideo(videoId) {
-            const iframe = document.getElementById('youtube-video');
-            iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
-    
-            const modal = new bootstrap.Modal(document.getElementById('videoModal'));
-            modal.show();
-    
-            document.getElementById('videoModal').addEventListener('hidden.bs.modal', () => {
-                iframe.src = "";
-            }, { once: true });
-        }
-    </script>
-    
-    <script>
-        function playVideo() {
-          const iframe = document.getElementById('youtube-video');
-          iframe.src = "https://www.youtube.com/embed/oWLHAuUoYqQ?autoplay=1&rel=0";
-    
-          const modal = new bootstrap.Modal(document.getElementById('videoModal'));
-          modal.show();
-    
-          document.getElementById('videoModal').addEventListener('hidden.bs.modal', () => {
-            iframe.src = "";
-          });
-        }
-       
-   
-
-
-
-      </script>
-      <script>
-        function playVideo(videoId) {
-            const iframe = document.getElementById('youtube-video');
-            iframe.src = `https://www.youtube.com/embed/oWLHAuUoYqQ?autoplay=1&rel=0`;
-    
-            const modal = new bootstrap.Modal(document.getElementById('videoModal'));
-            modal.show();
-    
-            document.getElementById('videoModal').addEventListener('hidden.bs.modal', () => {
-                iframe.src = "";
-            }, { once: true });
-        }
-    </script>
-    
-
-
-<script>
-    function showTab(element, tabId) {
-      const wrapper = element.closest('.tab-wrapper');
-  
-      const allSections = wrapper.querySelectorAll('.tab-content-section');
-      const allButtons = wrapper.querySelectorAll('.tab-btn, .tab-btn1, .tab-btn2');
-  
-      allSections.forEach(section => section.classList.remove('active'));
-      allButtons.forEach(btn => btn.classList.remove('active'));
-  
-      const selectedTab = wrapper.querySelector('#' + tabId);
-      if (selectedTab) selectedTab.classList.add('active');
-  
-      element.classList.add('active');
-    }
-
-   
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      loop: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
+    // Close all open dropdowns first
+    document.querySelectorAll('.dropdown-menu').forEach(menu => {
+      menu.style.display = 'none';
     });
- 
-  </script>
 
- 
-  
+    // Toggle this one
+    if (!isOpen) {
+      dropdown.style.display = 'block';
+
+      // Add global click listener
+      document.addEventListener('click', function handleOutsideClick(e) {
+        if (!elem.parentElement.contains(e.target)) {
+          dropdown.style.display = 'none';
+          document.removeEventListener('click', handleOutsideClick); // remove after execution
+        }
+      });
+    }
+  }
+
+  function selectItem(selectedItem) {
+    const allItems = selectedItem.parentElement.querySelectorAll('li');
+    allItems.forEach(item => item.classList.remove('active'));
+    selectedItem.classList.add('active');
+  }
+</script>
+
+    <script>
+    document.getElementById("fileInput").addEventListener("change", function (event) {
+        const file = event.target.files[0];
+        if (file && file.type.startsWith("image/")) {
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                document.getElementById("preview").src = e.target.result;
+            };
+            reader.readAsDataURL(file);
+        } else {
+            alert("Please select a valid image file.");
+        }
+    });
+</script>
 
 </body>
-
-
-
 
 </html>

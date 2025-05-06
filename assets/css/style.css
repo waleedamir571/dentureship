@@ -182,20 +182,7 @@ letter-spacing: -0.269px;
 }
 
 
-.course-title {
-  font-size: 1rem;
-  font-weight: 500;
-  margin-bottom: 5px;
-  color: var(--Gray-900, #1D2026);
-  font-family: Inter;
-  font-size: 17.964px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24.7px; 
-     padding-top: 10px;
-  padding-bottom: 10px;
 
-}
 
 .subtotal{
   color: var(--Gray-600, #6E7485);
@@ -535,13 +522,13 @@ h6 a,
   border: 0.889px solid #00FF84;
   color: #FFF;
   text-align: center;
-  font-family: "GT Walsheim Pro";
+ 
   font-size: 13.337px;
   font-style: normal;
   font-weight: 500;
   line-height: 26.673px;
   background: transparent;
-  padding: 10px 65px;
+  padding: 10px 55px;
   z-index: 1;
 }
 
@@ -677,16 +664,7 @@ line-height: 150%; /* 27px */
 }
 
 
-.text {
-  color: #052D4D;
-  text-align: center;
 
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 30px;
-  /* 150% */
-}
 
 .rts-btn.btn-2 {
   color: #fff;
@@ -781,6 +759,23 @@ h5,
   gap: 2rem !important;
 }
 
+.coupon-input-wrapper .apply-btn:hover {
+  position: absolute;
+  right: 6px;
+  top: 5px;
+  bottom: 5px;
+  padding: 0 20px;
+  border: 1px solid #002244;
+  border-radius: 20px;
+  background-color: #002244;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid #052D4D;
+}
+
 .modal {
   position: fixed;
   top: 0;
@@ -792,8 +787,8 @@ h5,
   overflow-x: hidden;
   overflow-y: auto;
   outline: 0;
-  background: black !important;
-  opacity: 0.9 !important;
+  /* background: black !important;
+  opacity: 0.9 !important; */
 }
 
 .modal-backdrop.custom-backdrop {
@@ -830,7 +825,7 @@ h5,
 
 
 .div3 {
-  width: 120px;
+  width: 115px;
   height: 120px;
   padding: 12px;
   /* border: 1px solid red; */
@@ -1731,23 +1726,7 @@ p:last-child {
 
 
 
-.tag {
-  background-color: #06c167;
-  color: white;
-  font-size: 0.75rem;
-  padding: 10px 32px;
-  border-radius: 20px;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  color: #000;
-  text-align: center;
-  font-family: "GT Walsheim Pro";
-  font-size: 17.957px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 1.5;
-}
+
 
 .btn-view,
 .btn-price {
@@ -1763,6 +1742,7 @@ p:last-child {
   display: flex
 ;
   align-items: center;
+  height: 365px;
 }
 .btn-price {
   background-color: #06c167;
@@ -1811,7 +1791,7 @@ p:last-child {
 }
 
 .rating {
-  color: #FFD700;
+  /* color: #FFD700; */
   font-size: 16px;
 }
 
@@ -2066,9 +2046,13 @@ ul li a {
 }
 
 ul li a:hover {
-  color: #000 !important;
+  color: #fff !important;
   text-decoration: none;
   font-weight: 500;
+}
+
+.btn, .btn:hover, .link-dark {
+  color: #000 !important;
 }
 
 ul ul {
@@ -3260,7 +3244,7 @@ ol ul {
 }
 
 .pt--105 {
-  padding-top: 105px !important;
+  padding-top: 50px !important;
 }
 
 .pb--105 {
@@ -10525,8 +10509,10 @@ a {
 a:hover, a:focus, a:active {
   text-decoration: none;
   outline: none;
-  color: #052D4D !important;
+  color: white !important;
 }
+
+
 
 a:focus {
   outline: none;
@@ -10742,8 +10728,18 @@ th {
 
 td,
 .wp-block-calendar tfoot td {
-  border: 1px solid var(--color-border);
+  
   padding: 7px 10px;
+  padding: .75rem .75rem;
+    vertical-align: middle;
+    color: var(--Gray-700, #4E5566);
+    /* font-family: Inter; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.14px;
+
 }
 
 del {
@@ -11240,6 +11236,7 @@ input[type=radio]~label::after {
   border-radius: 10px;
   border: 1.5px solid #D9D9D9;
   transition: var(--transition);
+  width: 100%;
 }
 
 .form-group input:focus {
@@ -16023,13 +16020,13 @@ Copyright (c) 2015 Daniel Eden
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .container-full-header {
-    padding: 0 15px;
+    padding: 0 0px;
   }
 }
 
 @media only screen and (max-width: 1199px) {
   .container-full-header {
-    padding: 0 15px;
+    padding: 0 0px;
   }
 }
 
@@ -16168,7 +16165,7 @@ Copyright (c) 2015 Daniel Eden
 .logo-area-start {
   display: flex;
   align-items: center;
-  gap: 70px;
+  gap: 100px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
@@ -19013,13 +19010,13 @@ header .rts-btn {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1400px;
   margin: auto;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .container {
-    padding: 0 15px;
+    padding: 0 0px;
   }
 }
 
@@ -22858,7 +22855,11 @@ li.has-dropdown:hover .submenu {
   user-select: none;
   white-space: nowrap;
   width: auto;
+  border: 1.121px solid var(--Gray-100, #E9EAF0);
+  background: var(--Gray-White, #FFF);
+  height: 50px;
 }
+
 
 .nice-select:hover {
   border-color: #dbdbdb;

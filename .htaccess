@@ -15,8 +15,7 @@ RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.*)$ $1.php [L]
 
 # ✅ Custom 404 error handling — redirect to full URL
-ErrorDocument 404 https://hoisolution.com/exhibit-network/404
+
 
 # (Optional) If someone tries to directly access /404/ path
-RewriteCond %{REQUEST_URI} ^/404/?$
-RewriteRule ^(.*)$ https://hoisolution.com/exhibit-network/404 [L,R=302]
+
