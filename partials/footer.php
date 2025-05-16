@@ -218,6 +218,23 @@
     <script src="assets/js/main.js"></script>
 
     <script>
+  function togglePassword() {
+    const input = document.getElementById('confirmPassword');
+    const icon = input.nextElementSibling;
+
+    if (input.type === "password") {
+      input.type = "text";
+      icon.classList.remove("fa-eye");
+      icon.classList.add("fa-eye-slash");
+    } else {
+      input.type = "password";
+      icon.classList.remove("fa-eye-slash");
+      icon.classList.add("fa-eye");
+    }
+  }
+</script>
+
+    <script>
   function toggleDropdown(elem) {
     const dropdown = elem.nextElementSibling;
     const isOpen = dropdown.style.display === 'block';

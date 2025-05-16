@@ -351,6 +351,222 @@
                             </div>
                             <div class="tab-pane " id="profile-1" role="tabpanel">
                                 <p class="text-muted mb-0">
+
+                                <div class="row align-items-center">
+                                    <div class="col">
+                                        <h4 class="card-title"> My Courses</h4>
+                                    </div><!--end col-->
+
+                                    <!--end col-->
+                                </div><!--end row-->
+
+
+                                <div class="row pt-20">
+                                    <div class="col-md-6">
+
+                                        <div class="form-group">
+                                            <label class="label12" for="exampleInputEmail1">Search:</label>
+                                            <form role="search" action="#" method="get">
+                                                <input type="search" name="search" class="form-control top-search mb-0"
+                                                    placeholder="Search in your courses...">
+                                                <!-- <button type="submit"><i class="iconoir-search"></i></button> -->
+                                            </form>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 ">
+                                        <div class="form-group row mb-2">
+                                            <label class="label12" for="exampleInputEmail1">Sort by:</label>
+
+                                            <select id="ddlCreditCardType" name="ddlCreditCardType" class="form-select">
+                                                <option value="">Latest</option>
+                                                <option value="AE">old</option>
+
+                                            </select>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 ">
+                                        <div class="form-group row mb-2">
+                                            <label class="label12" for="exampleInputEmail1">Category:</label>
+
+                                            <select id="ddlCreditCardType" name="ddlCreditCardType" class="form-select">
+                                                <option value="">All Category</option>
+                                                <option value="AE">old</option>
+
+                                            </select>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 ">
+                                        <div class="form-group row mb-2">
+                                            <label class="label12" for="exampleInputEmail1">Rating:</label>
+
+                                            <select id="ddlCreditCardType" name="ddlCreditCardType" class="form-select">
+                                                <option value="">4 Star & Up</option>
+                                                <option value="AE">3 Star & Up</option>
+                                                <option value="VI">2 Star & Up</option>
+                                                <option value="MC">1 Star & Up</option>
+
+                                            </select>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+
+                                <div class="row  pt-20">
+
+                                    <div class="col-md-3">
+                                        <a href="#">
+                                            <div class="course-card">
+                                                <img src="assets/images/home2/dr1.png" alt="Course Image"
+                                                    class="course-image">
+
+                                                <div class="course-body">
+                                                    <span class="tag">DEVELOPMENTS</span>
+                                                    <h3 class="course-title">Learn Python Programming Masterclass</h3>
+
+                                                    <div class="course-stats">
+                                                        <div class="rating">
+                                                            <span class="star">★</span> 4.0
+                                                        </div>
+                                                        <div class="learners">
+                                                            <span class="icon"><svg xmlns="http://www.w3.org/2000/svg"
+                                                                    width="20" height="21" viewBox="0 0 20 21"
+                                                                    fill="none">
+                                                                    <path
+                                                                        d="M10 13C12.7614 13 15 10.7614 15 8C15 5.23858 12.7614 3 10 3C7.23858 3 5 5.23858 5 8C5 10.7614 7.23858 13 10 13Z"
+                                                                        stroke="#564FFD" stroke-width="1.5"
+                                                                        stroke-miterlimit="10" />
+                                                                    <path
+                                                                        d="M2.42102 17.3743C3.18943 16.0442 4.29431 14.9398 5.62468 14.172C6.95505 13.4042 8.46405 13 10.0001 13C11.5361 13 13.0451 13.4043 14.3755 14.1721C15.7058 14.94 16.8107 16.0444 17.5791 17.3744"
+                                                                        stroke="#564FFD" stroke-width="1.5"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round" />
+                                                                </svg></span> 511,123 <span
+                                                                class="text-muted">Learners</span>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="course-card">
+                                            <img src="assets/images/home2/dr2.png" alt="Course Image"
+                                                class="course-image">
+
+                                            <div class="course-body">
+                                                <span class="tag">DEVELOPMENTS</span>
+                                                <h3 class="course-title">Learn Python Programming Masterclass</h3>
+
+                                                <div class="course-stats">
+                                                    <div class="rating">
+                                                        <span class="star">★</span> 4.0
+                                                    </div>
+                                                    <div class="learners">
+                                                        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg"
+                                                                width="20" height="21" viewBox="0 0 20 21" fill="none">
+                                                                <path
+                                                                    d="M10 13C12.7614 13 15 10.7614 15 8C15 5.23858 12.7614 3 10 3C7.23858 3 5 5.23858 5 8C5 10.7614 7.23858 13 10 13Z"
+                                                                    stroke="#564FFD" stroke-width="1.5"
+                                                                    stroke-miterlimit="10" />
+                                                                <path
+                                                                    d="M2.42102 17.3743C3.18943 16.0442 4.29431 14.9398 5.62468 14.172C6.95505 13.4042 8.46405 13 10.0001 13C11.5361 13 13.0451 13.4043 14.3755 14.1721C15.7058 14.94 16.8107 16.0444 17.5791 17.3744"
+                                                                    stroke="#564FFD" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                            </svg></span> 511,123 <span
+                                                            class="text-muted">Learners</span>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="course-card">
+                                            <img src="assets/images/home2/dr3.png" alt="Course Image"
+                                                class="course-image">
+
+                                            <div class="course-body">
+                                                <span class="tag">DEVELOPMENTS</span>
+                                                <h3 class="course-title">Learn Python Programming Masterclass</h3>
+
+                                                <div class="course-stats">
+                                                    <div class="rating">
+                                                        <span class="star">★</span> 4.0
+                                                    </div>
+                                                    <div class="learners">
+                                                        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg"
+                                                                width="20" height="21" viewBox="0 0 20 21" fill="none">
+                                                                <path
+                                                                    d="M10 13C12.7614 13 15 10.7614 15 8C15 5.23858 12.7614 3 10 3C7.23858 3 5 5.23858 5 8C5 10.7614 7.23858 13 10 13Z"
+                                                                    stroke="#564FFD" stroke-width="1.5"
+                                                                    stroke-miterlimit="10" />
+                                                                <path
+                                                                    d="M2.42102 17.3743C3.18943 16.0442 4.29431 14.9398 5.62468 14.172C6.95505 13.4042 8.46405 13 10.0001 13C11.5361 13 13.0451 13.4043 14.3755 14.1721C15.7058 14.94 16.8107 16.0444 17.5791 17.3744"
+                                                                    stroke="#564FFD" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                            </svg></span> 511,123 <span
+                                                            class="text-muted">Learners</span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="course-card">
+                                            <img src="assets/images/home2/dr4.png" alt="Course Image"
+                                                class="course-image">
+
+                                            <div class="course-body">
+                                                <span class="tag">DEVELOPMENTS</span>
+                                                <h3 class="course-title">Learn Python Programming Masterclass</h3>
+
+                                                <div class="course-stats">
+                                                    <div class="rating">
+                                                        <span class="star">★</span> 4.0
+                                                    </div>
+                                                    <div class="learners">
+                                                        <span class="icon"><svg xmlns="http://www.w3.org/2000/svg"
+                                                                width="20" height="21" viewBox="0 0 20 21" fill="none">
+                                                                <path
+                                                                    d="M10 13C12.7614 13 15 10.7614 15 8C15 5.23858 12.7614 3 10 3C7.23858 3 5 5.23858 5 8C5 10.7614 7.23858 13 10 13Z"
+                                                                    stroke="#564FFD" stroke-width="1.5"
+                                                                    stroke-miterlimit="10" />
+                                                                <path
+                                                                    d="M2.42102 17.3743C3.18943 16.0442 4.29431 14.9398 5.62468 14.172C6.95505 13.4042 8.46405 13 10.0001 13C11.5361 13 13.0451 13.4043 14.3755 14.1721C15.7058 14.94 16.8107 16.0444 17.5791 17.3744"
+                                                                    stroke="#564FFD" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                            </svg></span> 511,123 <span
+                                                            class="text-muted">Learners</span>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </p>
+                                <br>
+                                 <p class="text-muted mb-0 pt-20">
+
+                                <div class="row align-items-center">
+                                    <div class="col">
+                                        <h4 class="card-title"> New Courses</h4>
+                                    </div><!--end col-->
+
+                                    <!--end col-->
+                                </div><!--end row-->
+
+
                                 <div class="row pt-20">
                                     <div class="col-md-6">
 
@@ -1240,7 +1456,6 @@
                                                             </div>
                                                         </div>
 
-
                                                         <div class="col-md-12 pt-20">
 
                                                             <div class="form-group">
@@ -1279,16 +1494,11 @@
 
                                                     </div>
 
-
-
-
                                                 </div>
                                             </div>
                                         </div>
                                         <br>
                                         <!-- Social Profile -->
-
-
 
                                         <!-- Notifications and Password -->
 
@@ -1297,6 +1507,7 @@
                                                 <div class="course-summary-card">
                                                     <div class="card-custom">
                                                         <p class="page-title2">Payment Methods</p>
+                                                        <br>
                                                         <form>
                                                             <div class="mail">Payment method:
                                                             </div>
@@ -1410,10 +1621,14 @@
                                                                 <div class="form-group">
                                                                     <label for="exampleInputEmail1">Current
                                                                         Password</label>
-                                                                    <input type="email" class="form-control"
-                                                                        id="exampleInputEmail1"
-                                                                        aria-describedby="emailHelp"
-                                                                        placeholder="Password">
+                                                                    <div class="position-relative">
+                                                                        <input type="password" class="form-control pe-5"
+                                                                            id="confirmPassword"
+                                                                            placeholder=" Password">
+                                                                        <i class="fa-solid fa-eye position-absolute top-50 end-0 translate-middle-y me-3 text-muted"
+                                                                            style="cursor: pointer;"
+                                                                            onclick="togglePassword()"></i>
+                                                                    </div>
 
                                                                 </div>
                                                             </div>
@@ -1433,11 +1648,14 @@
                                                                 <div class="form-group">
                                                                     <label for="exampleInputEmail1">Confirm
                                                                         Password</label>
-                                                                    <input type="email" class="form-control"
-                                                                        id="exampleInputEmail1"
-                                                                        aria-describedby="emailHelp"
-                                                                        placeholder="Password">
-
+                                                                    <div class="position-relative">
+                                                                        <input type="password" class="form-control pe-5"
+                                                                            id="confirmPassword"
+                                                                            placeholder="Confirm new password">
+                                                                        <i class="fa-solid fa-eye position-absolute top-50 end-0 translate-middle-y me-3 text-muted"
+                                                                            style="cursor: pointer;"
+                                                                            onclick="togglePassword()"></i>
+                                                                    </div>
                                                                 </div>
                                                             </div>
 
@@ -1468,9 +1686,9 @@
     </div><!--end row-->
 </div>
 
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalDefault">
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalDefault">
     Launch demo modal
-</button>
+</button> -->
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModalDefault" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -1498,7 +1716,7 @@
 
                     </div>
                 </div>
-                
+
 
                 <div class="mt-4">
                     <div class="row">
@@ -1521,8 +1739,8 @@
 
             <div class="modal-footer border-0">
                 <button type="button" class="btn btn-link " data-bs-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-primary1 ">Submit Review <svg
-                        xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                <button type="button" class="btn btn-primary1 ">Submit Review <svg xmlns="http://www.w3.org/2000/svg"
+                        width="25" height="25" viewBox="0 0 25 25" fill="none">
                         <path
                             d="M20.9962 11.5828L5.1604 2.71476C5.02717 2.64016 4.87435 2.60799 4.72236 2.62257C4.57037 2.63714 4.42645 2.69776 4.30983 2.79632C4.19321 2.89488 4.10945 3.02668 4.06975 3.17412C4.03004 3.32156 4.03628 3.4776 4.08764 3.62139L7.07461 11.9849C7.13287 12.148 7.13287 12.3263 7.07461 12.4894L4.08764 20.853C4.03628 20.9967 4.03004 21.1528 4.06974 21.3002C4.10945 21.4477 4.19321 21.5795 4.30983 21.678C4.42645 21.7766 4.57037 21.8372 4.72236 21.8518C4.87436 21.8664 5.02718 21.8342 5.1604 21.7596L20.9962 12.8916C21.1125 12.8264 21.2093 12.7314 21.2768 12.6164C21.3442 12.5014 21.3797 12.3705 21.3797 12.2372C21.3797 12.1039 21.3442 11.9729 21.2768 11.8579C21.2093 11.7429 21.1125 11.6479 20.9962 11.5828Z"
                             fill="#052D4D" />
